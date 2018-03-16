@@ -68,17 +68,17 @@ class Example extends Component {
 
 | Property      | Type               | Default                               | Description                                                                                                                                  |
 |:--------------|:-------------------|:--------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| `src`         | `string`           | `undefined`                           | Required URL of the preferred image source.                                                                                                  |
-| `fallback`    | `string`           | `undefined`                           | Optional URL of a fallback image.                                                                                                            |
-| `children`    | `node`             | `undefined`                           | Optional children.                                                                                                                           |
-| `showPreview` | `boolean`          | `false`                               | Whether or not to show fallback while preferred `src` is loading.                                                                            |
-| `loader`      | `node`             | `undefined`                           | Optional node to show while `src` is loading.                                                                                                |
-| `backgroundSize`        | `string`           | `cover`                     | Convenience prop for setting `background-size` on `style`.                                                                                   |
-| `backgroundPosition`    | `string`           | `center center`             | Convenience prop for setting `background-position` on `style`.                                                                               |
-| `backgroundRepeat`      | `string`           | `no-repeat`                 | Convenience prop for setting `background-repeat` on `style`.                                                                                 |
-| `style`                 | `object`           | `undefined`                 | Optional `style` overrides for root element.                                                                                                 |
-| `className`             | `string`           | `undefined`                 | Optional `className` override for root element.                                                                                              |
-| `...`                   | `...`              | `undefined`                 | All other props are applied to the root element.                                                                                             |
+| `src`         | string           | undefined                           | Required URL of the preferred image source.                                                                                                  |
+| `fallback`    | string           | undefined                           | Optional URL of a fallback image.                                                                                                            |
+| `children`    | node             | undefined                           | Optional children.                                                                                                                           |
+| `showPreview` | boolean          | false                               | Whether or not to show fallback while preferred `src` is loading.                                                                            |
+| `loader`      | node             | undefined                           | Optional node to show while `src` is loading.                                                                                                |
+| `backgroundSize`        | string           | cover                     | Convenience prop for setting `background-size` on `style`.                                                                                   |
+| `backgroundPosition`    | string           | center center             | Convenience prop for setting `background-position` on `style`.                                                                               |
+| `backgroundRepeat`      | string           | no-repeat                 | Convenience prop for setting `background-repeat` on `style`.                                                                                 |
+| `style`                 | object           | undefined                 | Optional `style` overrides for root element.                                                                                                 |
+| `className`             | string           | undefined                 | Optional `className` override for root element.                                                                                              |
+| `...`                   | ...              | undefined                 | All other props are applied to the root element.                                                                                             |
 
 ## License
 
