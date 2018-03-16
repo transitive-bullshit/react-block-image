@@ -22,7 +22,7 @@ yarn add react-block-image
 
 ## Usage
 
-Check out the ([demo](https://transitive-bullshit.github.io/react-block-image/)) in the [example folder](https://github.com/transitive-bullshit/react-block-image/tree/master/example).
+Check out the [demo](https://transitive-bullshit.github.io/react-block-image/) in the [example folder](https://github.com/transitive-bullshit/react-block-image/tree/master/example).
 
 Minimal:
 
