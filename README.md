@@ -1,6 +1,6 @@
 # react-block-image ([demo](https://transitive-bullshit.github.io/react-block-image/))
 
-> Replacement react component for `img` that uses a `div` with `background-image` for more control + fallback support.
+> React Replacement for `img` that uses a `div` with `background-image` for more control + fallback support.
 
 [![NPM](https://img.shields.io/npm/v/react-block-image.svg)](https://www.npmjs.com/package/react-block-image) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
