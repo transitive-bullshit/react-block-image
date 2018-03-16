@@ -1,7 +1,7 @@
 {
   "name": "react-block-image",
   "version": "1.0.0",
-  "description": "Replacement for img that uses a div with background-image for more control.",
+  "description": "Replacement react component for img that uses background-image for more control + fallback support.",
   "author": "transitive-bullshit",
   "license": "MIT",
   "repository": "transitive-bullshit/react-block-image",
