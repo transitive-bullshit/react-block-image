@@ -1,6 +1,6 @@
 # react-block-image ([demo](https://transitive-bullshit.github.io/react-block-image/))
 
-> Replacement for `img` that uses a div with background-image for more control + fallback and loading support.
+> Replacement react component for `img` that uses a `div` with `background-image` for more control + fallback support.
 
 [![NPM](https://img.shields.io/npm/v/react-block-image.svg)](https://www.npmjs.com/package/react-block-image) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -9,6 +9,7 @@
 - **background-image** for easier control over sizing
 - **Fallback** image support
 - **Loading** customization
+- Zero dependencies
 - Used in production at [Automagical](https://automagical.ai/)
 
 ## Install
@@ -20,6 +21,8 @@ yarn add react-block-image
 ```
 
 ## Usage
+
+Check out the ([demo](https://transitive-bullshit.github.io/react-block-image/)) in the [example folder](https://github.com/transitive-bullshit/react-block-image/tree/master/example).
 
 Minimal:
 
@@ -43,7 +46,6 @@ With fallback image and loading animation:
 import React, { Component } from 'react'
 
 import BlockImage from 'react-block-image'
-
 import placeholder from './placeholder.jpg'
 
 class Example extends Component {
@@ -62,7 +64,7 @@ class Example extends Component {
 }
 ```
 
-## API
+## Props
 
 | Property      | Type               | Default                               | Description                                                                                                                                  |
 |:--------------|:-------------------|:--------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
