@@ -4,6 +4,7 @@
   "description": "React replacement for img that uses background-image for more control + fallback support.",
   "author": "transitive-bullshit",
   "license": "MIT",
+  "reveal": true,
   "repository": "transitive-bullshit/react-block-image",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
